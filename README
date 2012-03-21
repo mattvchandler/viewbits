@@ -1,0 +1,16 @@
+viewbits
+
+A simple glut example program.
+
+Reads in a file, and interprets the data as pixels.
+Usage: viewbits FILE [width] [height]
+If the file parameter is ommitted, file data will be read from standard input (unless on windows)
+File input is truncated at 5 MB
+    
+Controls:
+R                   Toggle RGB / grayscale
+Z                   Zoom in
+X                   Zoom out
+Up/Down Arrow keys  Scroll display
+Scroll wheel        Scroll display
+Esc                 Quit
