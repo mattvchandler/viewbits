@@ -14,3 +14,5 @@ X                   Zoom out
 Up/Down Arrow keys  Scroll display
 Scroll wheel        Scroll display
 Esc                 Quit
+
+viewbits was built to use freeglut, but will most likely build just as well with regular glut with few modifications
